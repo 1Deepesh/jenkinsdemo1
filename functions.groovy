@@ -1,3 +1,0 @@
-def sayHello() {
-	println ("hello")
-}
