@@ -27,7 +27,8 @@ pipeline {
     }
 }
 
-
+    }
+}
 
 def loadConfigfiles() {
     def sayHello = load "${CONFIG_DIR}/sayHello.groovy"
