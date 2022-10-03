@@ -1,1 +1,3 @@
-put your code here.
+def myFunction() {
+  println ("Hello World")
+}
