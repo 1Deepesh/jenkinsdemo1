@@ -1,3 +1,0 @@
-def myFunction() {
-  println ("Hello World")
-}
