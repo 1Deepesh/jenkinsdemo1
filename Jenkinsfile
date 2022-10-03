@@ -13,8 +13,11 @@ pipeline {
     stages {
         stage('loadConfigFiles') {
             steps {
+                script {
                 loadConfigfiles()
                 sayHello.sayHello('Deepesh Prasad')
+                
+            }
 
             }
         }
