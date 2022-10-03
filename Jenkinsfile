@@ -19,17 +19,17 @@ pipeline {
 
             }
         }
-    }
+    
     stage("sayHello") {
         steps {
             script {
                 sayHello.sayHello("Deepesh Prasad")
-    }
-}
+             }
+        }
 
     }
 }
 
 def loadConfigfiles() {
-    def sayHello = load "${CONFIG_DIR}/sayHello.groovy"
+    sayHello = load "${CONFIG_DIR}/sayHello.groovy"
 }
