@@ -1,3 +1,3 @@
-def sayHello(string NAME) {
+def sayHello(String NAME) {
     println ("Hi Mr. " + NAME )
 }
