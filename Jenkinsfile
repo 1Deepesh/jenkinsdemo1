@@ -24,7 +24,7 @@ pipeline {
         steps {
             script {
                 sayHello.sayHello("Deepesh Prasad")
-                getAppName()
+                getAppName.appName()
              }
         }
 
