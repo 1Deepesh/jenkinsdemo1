@@ -8,7 +8,7 @@ pipeline {
     parameters {
         string(name: 'appname', defaultValue: "", description: "name of the app")
         string(name: 'groupname', defaultValue: "", description: "name of the group")
-        boolean(name: 'skipSonarScan', defaultValue: true, description: "if true, this will skip sonar scanning.")
+//         boolean(name: 'skipSonarScan', defaultValue: true, description: "if true, this will skip sonar scanning.")
     }
     stages {
         stage('loadConfigFiles') {
