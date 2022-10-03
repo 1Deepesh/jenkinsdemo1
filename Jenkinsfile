@@ -24,6 +24,7 @@ pipeline {
         steps {
             script {
                 sayHello.sayHello("Deepesh Prasad")
+                getAppName()
              }
         }
 
@@ -33,4 +34,5 @@ pipeline {
 
 def loadConfigfiles() {
     sayHello = load "${CONFIG_DIR}/sayHello.groovy"
+    getAppName = load "${CONFIG_DIR}/appName.groovy"
 }
