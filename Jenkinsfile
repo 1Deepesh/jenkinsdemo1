@@ -29,7 +29,7 @@ pipeline {
         }
 
     }
-   stage() {
+   stage('docker demo') {
 	steps {
 		script {
 		  ddocker.deployContainer()
