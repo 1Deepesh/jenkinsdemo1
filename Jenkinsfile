@@ -42,5 +42,5 @@ pipeline {
 def loadConfigfiles() {
     sayHello = load "${CONFIG_DIR}/sayHello.groovy"
     getAppName = load "${CONFIG_DIR}/appName.groovy"
-    ddocker = load "${CONFIG_DIR}/dockerdemo.groovy"
+    ddocker = load "${CONFIG_DIR}/dockerDemo.groovy"
 }
